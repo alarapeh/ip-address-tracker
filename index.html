@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <!-- Leaflet CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+  integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+  crossorigin="" />
+
+<!-- Leaflet CSS -->
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+  integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+  crossorigin=""></script>
+
+
+  <link rel="stylesheet" href="style/styles.css">
+
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="first">
+      <h1> IP Address Tracker</h1>
+      <form action="" autocomplete="off">
+				<input type="text" id="ip-input" autofocus placeholder="Search for any IP address or domain">
+				<button type="submit"><img src="images/icon-arrow.svg" alt="Submit Button"></button>
+			</form>
+      <div class="block">
+        <div>
+          <h5 class="lead">IP ADDRESS</h5>
+          <p class="bold" id="ip-info"></p> 
+        </div><span class="line"> |</span>
+        <div>
+          <h5 class="lead"> LOCATION</h5>
+          <p class="bold" id="location-info"></p> 
+        </div><span class="line"> |</span>
+        <div>
+          <h5 class="lead" > TIMEZONE</h5>
+          <p class="bold"  id="timezone-info"></p>
+        </div> <span class="line"> |</span>
+        <div>
+          <h5 class="lead " > ISP</h5>
+          <p class="bold" id="isp-info"></p>
+        </div> <span class="line"></span>
+      </div>
+    </section>
+    <section class="last">
+      <div id="map"></div>
+       
+    </section>
+  </main>
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Alarape Habeeb olanrewaju</a>.
+  </div>
+ 
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>
