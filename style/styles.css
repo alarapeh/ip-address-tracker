@@ -13,7 +13,6 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(images/pattern-bg.png);
     height: 15rem
 }
 h1{
@@ -102,7 +101,7 @@ button[type="submit"]:hover {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-image: url(images/pattern-bg.png);
+       
         height: 15rem;
         padding: 3rem 1rem;
     }
