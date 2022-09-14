@@ -151,7 +151,7 @@ button[type="submit"]:hover {
         display: flex;
     background-color: white;
     padding: 3rem;
-    margin-left: 10px;
+    margin-left: 31px;
     border-radius: 10px;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +174,7 @@ button[type="submit"]:hover {
     
     }
     .line{
-        display: block;
+        display: none;
         
     
     }
@@ -185,6 +185,6 @@ button[type="submit"]:hover {
         max-width: 100%;
     }
     .leaflet-top{
-        display: none;
+        display: block;
     }
 }
